@@ -1,5 +1,7 @@
 body {
   font-family: "sirenne-eighteen-mvb", serif;
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
 header {
   text-align: center;
@@ -48,7 +50,13 @@ section {
   width: 85%;
   margin: 0px auto;
   padding: 20px 30px;
+}
+.first-section {
   background-color: #bbe6bb;
+}
+section .text-box {
+  padding-left: 80px;
+  padding-right: 160px;
 }
 section h3 {
   font-size: 38px;
@@ -56,4 +64,85 @@ section h3 {
 }
 section p {
   font-size: 18px;
+}
+section p b {
+  font-family: "sirenne-text-mvb", serif;
+  font-size: 20px;
+}
+section .youtube-link {
+  text-decoration: none;
+  color: #000;
+}
+.second-section {
+  background-color: #fff;
+}
+section .text-box-two {
+  padding-left: 80px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+section ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+section li {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+section .project-link {
+  text-decoration: none;
+  color: #006400;
+  transition: all 150ms ease-in-out;
+}
+section .project-link:hover {
+  color: #02fc02;
+  cursor: pointer;
+}
+.section-image {
+  width: 300px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+.section-image:hover {
+  transform: scale(1.5);
+}
+section #portfolio-link {
+  text-decoration: none;
+  color: #006400;
+  background-color: #bbe6bb;
+  border: 1px solid #006400;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+section #portfolio-link:hover {
+  cursor: pointer;
+  color: #fff;
+  border-color: #fff;
+  background-color: #006400;
+}
+footer {
+  width: 95%;
+  margin: 10px auto;
+}
+footer .grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px 15px;
+}
+footer h4 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+footer p {
+  font-size: 16px;
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #006400;
 }
