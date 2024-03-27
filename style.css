@@ -1,6 +1,59 @@
+body {
+  font-family: "sirenne-eighteen-mvb", serif;
+}
 header {
   text-align: center;
-  padding: 40px 0;
-  width: 90%;
+  padding: 40px 0 60px 0;
+  width: 95%;
   margin: 20px auto;
+  margin-bottom: 0px;
+  font-family: "sirenne-six-mvb", serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./images/Eowyn_2_ki.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 {
+  font-size: 60px;
+  padding: 40px 0;
+  margin: 45px auto;
+  color: #fff;
+}
+header h2 {
+  font-size: 48px;
+  padding: 30px 0;
+  margin: 45px auto;
+  color: #fff;
+}
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #006400;
+  background-color: #fff;
+  border: 1px solid #006400;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 40px auto;
+  transition: all 150ms ease-in-out;
+}
+header a:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #006400;
+  border-color: #fff;
+}
+section {
+  width: 85%;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #bbe6bb;
+}
+section h3 {
+  font-size: 38px;
+  color: #006400;
+}
+section p {
+  font-size: 18px;
 }
