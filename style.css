@@ -124,25 +124,62 @@ section #portfolio-link:hover {
   border-color: #fff;
   background-color: #006400;
 }
+.grid-4-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+section .section-icons {
+  font-size: 40px;
+  color: #000;
+}
+section #gandalf-riddle {
+  color: #bbe6bb;
+  transition: all 2s ease-in-out;
+}
+section #gandalf-riddle:hover {
+  cursor: pointer;
+  color: #000;
+}
 footer {
   width: 95%;
   margin: 10px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./images/Eowyn_2_ki.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "sirenne-six-mvb", serif;
 }
 footer .grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  padding: 10px 15px;
+  gap: 30px;
+  padding: 20px 45px;
 }
 footer h4 {
   font-size: 28px;
   margin: 20px 0;
+  color: #fff;
 }
 footer p {
   font-size: 16px;
   margin: 0;
+  color: #fff;
 }
 footer a {
   text-decoration: none;
   color: #006400;
+  text-shadow: 1px 1px 1px #003f00;
+}
+footer ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+footer .footer-icons {
+  font-size: 40px;
+  color: #fff;
 }
