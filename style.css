@@ -135,6 +135,13 @@ section .section-icons {
   font-size: 40px;
   color: #000;
 }
+section q {
+  font-size: 22px;
+  font-style: italic;
+}
+#riddle-section p {
+  font-size: 20px;
+}
 section #gandalf-riddle {
   color: #bbe6bb;
   transition: all 2s ease-in-out;
