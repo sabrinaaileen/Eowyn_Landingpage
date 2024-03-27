@@ -1,17 +1,66 @@
-//Contact page: Gandalf riddle
+//Index page: color change clicker second section
 
-let riddleParagraph = document.getElementById("gandalf-riddle");
-let quoteOne = document.getElementById("gandalf-quote-one");
-let quoteTwo = document.getElementById("pippin-quote-one");
-let quoteThree = document.getElementById("gandalf-quote-two");
+let colorHeading = document.getElementById("projects");
 
-function showRiddle() {
-  quoteOne.innerHTML =
-    '"White shores, and beyond, a far green country under a swift sunrise."';
-  quoteTwo.innerHTML = '"Well, that is not so bad."';
-  quoteThree.innerHTML = '"No. No, it is not."';
-  riddleParagraph.style.color = "#000000";
-  riddleParagraph.removeEventListener("click", showRiddle);
+function getRandomColor() {
+  let randomColor = Math.floor(Math.random() * 256);
+  return randomColor;
 }
 
-riddleParagraph.addEventListener("click", showRiddle);
+function showColors(event) {
+  let newColor =
+    "rgb(" +
+    getRandomColor() +
+    "," +
+    getRandomColor() +
+    "," +
+    getRandomColor() +
+    ")";
+  event.target.style.color = newColor;
+}
+
+colorHeading.addEventListener("click", showColors);
+
+//palm image manipulation
+
+let palmImage = document.getElementById("palm-image");
+
+function showRandomTransformation() {
+  let newSize = "";
+  let newOrientation = "";
+  let x = Math.floor(Math.random() * 7);
+  switch (x) {
+    case 0:
+      newSize = "100px";
+      newOrientation = "rotate(120deg)";
+      break;
+    case 1:
+      newSize = "200px";
+      newOrientation = "rotate(90deg)";
+      break;
+    case 2:
+      newSize = "250px";
+      newOrientation = "rotate(20deg)";
+      break;
+    case 3:
+      newSize = "150px";
+      newOrientation = "rotate(180deg)";
+      break;
+    case 4:
+      newSize = "50px";
+      newOrientation = "rotate(300deg)";
+      break;
+    case 5:
+      newSize = "150px";
+      newOrientation = "rotate(270deg)";
+      break;
+    case 6:
+      newSize = "200px";
+      newOrientation = "rotate(0deg)";
+      break;
+  }
+  palmImage.style.width = newSize;
+  palmImage.style.transform = newOrientation;
+}
+
+palmImage.addEventListener("click", showRandomTransformation);
