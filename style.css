@@ -163,6 +163,19 @@ section #portfolio-link:hover {
   border-color: #fff;
   background-color: #006400;
 }
+#portrait-paragraph:hover {
+  cursor: pointer;
+}
+#portrait {
+  display: none;
+}
+#hide-portrait-paragraph {
+  text-align: center;
+  display: none;
+}
+#hide-portrait-paragraph:hover {
+  cursor: pointer;
+}
 .grid-4-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
