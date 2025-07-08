@@ -1,49 +1,66 @@
-# Éowyn Landingpage
+# Éowyn Landing Page 🛡️
 
-index.html
+A fan-based learning project — built as part of a Codecademy course to practice HTML, CSS, and layout structure.  
+I chose Éowyn from *The Lord of the Rings* because I admire her as a strong and inspiring character.
 
-## What's it about?
+🌐 [Live Site](https://polite-gecko-bd43d5.netlify.app)
 
-It's a practice website for a course on Codecademy. I chose to use a fantasy figure I admire, to show what I learned so far.
+---
 
-I started with a header with a background-image I created with help of AI. It should show another view on her and that she is a Shieldmaiden.
+## ✨ What's this about?
 
-index.html
+This website is a **coding practice project** — not commercial — where I playfully combine fantasy themes with what I’ve learned so far in front-end development.
 
-### First section: About me
+It includes two HTML pages: `index.html` and `coding.html`.
 
-It is a little story about Éowyn, very short and with a lot of interpretation and thoughts of my own
+---
 
-### Second section: My projects
+## 🧭 Page Structure
 
-Maybe the heading can do something, try to figure it out. This shows a little overview of my coding projects.
+### 🏠 `index.html`
 
-- My latest one: JS Playground with a link to click on
-- My weather apps, also with links: My first one and the second one created with react.js
-- A link to my website, because there are more links to my projects hosted on Netlify
+- **Header**: Background image created with AI, presenting Éowyn as a shieldmaiden  
+- **About Me**: A short, poetic interpretation of Éowyn’s character  
+- **Projects**: Overview of my coding projects  
+  - JavaScript Playground  
+  - Two weather apps (vanilla JS & React)  
+  - Link to my [portfolio website](https://www.sabrina-aileen-hodapp.de)  
+- **Skills**: A list of my own developer skills (not Éowyn’s 😉), with a hand-drawn palm illustration  
+- **Footer**: Contact options (email, Instagram) and a disclaimer: This is a **learning project only**
 
-### Third section: Skills
+---
 
-I reveal that I coded that site and not Éowyn and list all my skills. At the bottom I added the link to my website once more and a picture of a palm I drew. Maybe the palm can do something.
+### 💻 `coding.html`
 
-### Footer
+- **"Forgive Me"**: A tongue-in-cheek apology for pretending Éowyn coded the site  
+- **Contact Links**: Email, Instagram, Facebook, Castforward (with icons)  
+- **Tolkien Quote Section**: Hidden clickable quote from *Return of the King* (Pippin & Gandalf scene) — can you find it?
 
-I added the footer on both pages. It offers a quick contact via email or Instagram and another link to the contact page. I also write about who I am and what the purpose of this site is: Learn to code and get better. I write also that this site is for learning purposes only and not for commercial purposes.
+---
 
-coding.html
+## 🔧 Technologies Used
 
-### First section: Forgive me
+- HTML5  
+- CSS3  
+- Netlify (for hosting)  
+- AI-generated visual (background image)  
+- Hand-drawn illustration
 
-An apology. It's because I started on this site in the header with the claim it was again Éowyn, who coded that site. But of course it was me.
+---
 
-### Second section: The ways of contact
+## 🎯 Purpose
 
-I added Icons with links to click on for email, instagram, facebook and castforward
+This site is part of my learning journey as a career-changer into web development.  
+It’s about experimenting, trying things out, making mistakes, and having fun.
 
-### Third section: I didn't think it would end this way
+**Disclaimer:** This website is for learning purposes only.  
+All characters and references belong to their respective creators.
 
-This section is about a scene from lord of the rings: the return of the king. Pippin and Gandalf are in Minas Tirith and it doesn't look good. The orcs are nearly breaking through the gate. Pippin is afraid of the death and Gandalf was able to take that fear away. Find the right point, you can click to see the rest of the dialogue.
+---
 
-## Conclusion
+## 🙋‍♀️ About Me
 
-I wish you fun and good luck to find the little gimmicks.
+I'm Sabrina – a creative, curious coder with a background in acting.  
+Check out more of my work at [sabrina-aileen-hodapp.de](https://www.sabrina-aileen-hodapp.de)
+
+Thanks for visiting – and enjoy the little surprises 🧙‍♂️✨
